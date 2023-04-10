@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="sytlesheet" href="styles.css">
+
+  <title>HP Victus</title>
+</head>
+
+<body>
+  <header id="header">
+    <img id="header-img" class="logo" src="data:image/png;base64,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">
+    <nav id="nav-bar">
+      <a class="nav-link" href="#info">Caracteristics</a>
+      <a class="nav-link" href="#prices">Options</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+  </header>
+  <div class="wrapper">
+    <div class="slider" id="slider">
+      <ul class="slides">
+        <li class="slide" id="slide1">
+          <a href="#">
+            <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08186083.png" alt="photo 1">
+          </a>
+        </li>
+        <li class="slide" id="slide2">
+          <a href="#">
+            <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08186054.png" alt="photo 2">
+          </a>
+        </li>
+        <li class="slide" id="slide3">
+          <a href="#">
+            <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08186112.png" alt="photo 3">
+          </a>
+        </li>
+        <li class="slide" id="slide4">
+          <a href="#">
+            <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08186141.png" alt="photo 4">
+          </a>
+        </li>
+        <li class="slide" id="slide5">
+          <a href="#">
+            <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08186025.png" alt="photo 5">
+          </a>
+        </li>
+        <li class="slide">
+          <a href="#">
+            <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08186083.png" alt="photo 1">
+          </a>
+        </li>
+      </ul>
+      <ul class="slider-controler">
+        <li><a href="#slide1">&bullet;</a></li>
+        <li><a href="#slide2">&bullet;</a></li>
+        <li><a href="#slide3">&bullet;</a></li>
+        <li><a href="#slide4">&bullet;</a></li>
+        <li><a href="#slide5">&bullet;</a></li>
+      </ul>
+    </div>
+  </div>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ZPUvw4BQM_k" title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen id="video">
+  </iframe>
+  <section id="pricing">
+    <h2 class="heading">OPTIONS</h2>
+    <div class="pricing-div">
+      <ul class="pricing-plan">
+        <li class="pricing-title">HP Victus 15-FA0031DX</li>
+        <li class="price">USD$1059</li>
+        <li>Intel Core I5 12450H</li>
+        <li>512gb SSD</li>
+        <li>8gb Ram</li>
+        <li>GTX 1650 4gb</li>
+        <li class="get"><a class="get-btn" href="#">BUY</a></li>
+      </ul>
+      <ul class="pricing-plan">
+        <li class="pricing-title">HP Victus 15-FA0032</li>
+        <li class="price">USD$1867</li>
+        <li>Intel Core I7 12650H</li>
+        <li>512gb SSD</li>
+        <li>32gb Ram</li>
+        <li>RTX 3050 4gb</li>
+        <li class="get"><a class="get-btn" href="#">BUY</a></li>
+      </ul>
+      <ul class="pricing-plan">
+        <li class="pricing-title">HP Victus 15-fb0103la
+        </li>
+        <li class="price">USD$1248</li>
+        <li>Ryzen 5 5600H</li>
+        <li>256gb SSD</li>
+        <li>8gb Ram</li>
+        <li>RX 5500 4gb</li>
+        <li class="get"><a class="get-btn" href="#">BUY</a></li>
+      </ul>
+    </div>
+  </section>
+  <button class="btn">Select</button>
+  </div>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input id="email" type="email" name="email" placeholder="Your email"></input>
+    <input id="submit" type="submit" value="Contact"></input>
+  </form>
+
+
+
+</body>
+
+</html>
